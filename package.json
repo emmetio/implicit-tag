@@ -1,6 +1,6 @@
 {
   "name": "@emmetio/implicit-tag",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Resolves best matching child tag name for given parent name",
   "main": "dist/implicit-tag.cjs.js",
   "module": "dist/implicit-tag.es.js",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "mocha",
-	"build": "rollup -c",
+    "build": "rollup -c",
     "prepublish": "npm test && npm run build"
   },
   "repository": {
